@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Dominic Amstutz
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Dominic
+last_name: Amstutz
 
 # Status emoji
 status:
@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
+  - name: Department of Sociology, The Chinese University of Hong Kong
     url: https://www.example.com/
 
 # Social network links

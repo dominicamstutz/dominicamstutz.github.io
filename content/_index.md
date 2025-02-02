@@ -25,15 +25,15 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "15"
+        - statistic: "Community"
           description: |
-            Publications
-        - statistic: "1,000+"
+            Test ...
+        - statistic: "Theory"
           description: |
-            Citations
-        - statistic: "78"
+            Test ...
+        - statistic: "Resonance"
           description: |
-            h-index
+            Test ...
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -42,12 +42,12 @@ sections:
         padding: [0, 0, 0, 0]
   - block: markdown
     content:
-      title: 'Welcome 👋'
+      title: 'In progress...'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Introduction
 
-        **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
+        **Specialties:**
     design:
       columns: '1'
   - block: collection

@@ -24,7 +24,7 @@ role: Sociologist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: The Chinese University of Hong Kong
     url: https://openai.com/
 
 # Social network links
@@ -47,7 +47,7 @@ profiles:
     url: https://orcid.org/
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: PhD 
     institution: Stanford University
     date_start: 2016-01-01
     date_end: 2020-12-31

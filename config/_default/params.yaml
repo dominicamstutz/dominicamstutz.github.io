@@ -35,9 +35,10 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Chien Shiung Wu"
+      text: "Dominic Amstutz"
 
 # Site footer
+i_am_a_sponsor: true
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'

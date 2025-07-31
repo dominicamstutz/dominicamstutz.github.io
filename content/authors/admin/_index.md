@@ -21,8 +21,8 @@ role: PhD Candidate in Sociology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The Chinese University of Hong Kong
+    url: https://www.soc.cuhk.edu.hk/profile/amstutz-dominic/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -31,21 +31,14 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: 'mailto:amstutz.dominic@gmail.com'
+    label: E-mail
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/resume.pdf
+  - icon: academicons/google-scholar
+    url: https://scholar.google.de/citations?user=1fdME3sAAAAJ&hl=en
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0000-0563-8650
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

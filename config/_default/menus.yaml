@@ -9,5 +9,5 @@ main:
     url: /uploads/CV.pdf
     weight: 20
   - name: Research
-    url: /blog/
+    url: /studies/
     weight: 30

@@ -5,9 +5,9 @@ main:
   - name: About
     url: /
     weight: 10
-  - name: Research
+  - name: CV
     url: tags/
     weight: 20
-  - name: CV
+  - name: Research
     url: uses/
     weight: 30

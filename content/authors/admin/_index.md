@@ -47,6 +47,4 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dominic Amstutz is a PhD candidate in sociology at The Chinese University of Hong Kong, awarded the Hong Kong PhD Fellowship Scheme by the Research Grants Council of Hong Kong. His research focuses on social networks, community, and social cohesion, specifically studying the link between personal community and generalized solidarity. He also investigates class- and gender-based inequalities in community formation and social capital.

@@ -8,6 +8,9 @@ appearance:
   mode: light
   color: blue
 
+# Remove Hugo Blox notice
+i_am_a_sponsor: true
+
 # SEO
 marketing:
   seo:

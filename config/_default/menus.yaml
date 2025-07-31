@@ -6,7 +6,7 @@ main:
     url: /
     weight: 10
   - name: CV
-    url: tags/
+    url: static/uploads/CV.pdf
     weight: 20
   - name: Research
     url: uses/

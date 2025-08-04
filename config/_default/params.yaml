@@ -8,7 +8,7 @@ appearance:
   mode: light
   color: blue
 
-# Remove Hugo Blox notice
+# Remove hugo blox notice
 i_am_a_sponsor: true
 
 # SEO

@@ -9,7 +9,7 @@ main:
     url: /studies/
     weight: 20
   - name: CV
-    url: /uploads/test.pdf
+    url: /uploads/CV.pdf
     weight: 30
     params:
       target: _blank

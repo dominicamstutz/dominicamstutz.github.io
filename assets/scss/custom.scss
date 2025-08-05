@@ -1,0 +1,23 @@
+// Make mobile menu transition smoothly
+.navbar-collapse {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+// When menu is open
+.navbar-collapse.show {
+  max-height: 500px; // Adjust based on your menu length
+}
+
+// Tighten up spacing inside menu
+.navbar-collapse {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+// Remove bottom margin from nav links (if any)
+.navbar-nav .nav-link {
+  margin-bottom: 0 !important;
+  padding-bottom: 0.5rem; // optional, adjust if needed
+}

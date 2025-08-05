@@ -9,5 +9,5 @@ main:
     url: /studies/
     weight: 20
   - name: CV
-    url: https://dominicamstutz.github.io/uploads/cv_webpage.pdf
+    url: https://dominicamstutz.github.io/cv.pdf
     weight: 30

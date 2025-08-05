@@ -15,7 +15,8 @@ appearance:
 i_am_a_sponsor: true
 
 # Change website icon:
-favicon: "https://dominicamstutz.github.io/favicon.png"
+params:
+  favicon: "/workspaces/dominicamstutz.github.io/static/favicon.png"
 
 # SEO
 marketing:

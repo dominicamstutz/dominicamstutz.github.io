@@ -14,6 +14,9 @@ appearance:
 # Remove hugo blox notice
 i_am_a_sponsor: true
 
+# Change website icon:
+favicon: "https://dominicamstutz.github.io/favicon.png"
+
 # SEO
 marketing:
   seo:

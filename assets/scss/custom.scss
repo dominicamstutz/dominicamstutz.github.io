@@ -21,3 +21,26 @@
   margin-bottom: 0 !important;
   padding-bottom: 0.5rem; // optional, adjust if needed
 }
+
+// Force light mode on small screens (smartphones)
+@media (max-width: 600px) {
+  html[data-theme="dark"] {
+    color-scheme: light;
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  body[data-theme="dark"] {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  // Override Blox's theme preference on mobile
+  html[data-theme="dark"],
+  body[data-theme="dark"] {
+    [data-bs-theme="dark"] {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+  }
+}

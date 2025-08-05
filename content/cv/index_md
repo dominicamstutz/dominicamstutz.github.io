@@ -1,6 +1,0 @@
----
-title: "CV"
-type: "page"
----
-
-{{< pdf src="/uploads/cv_webpage.pdf" >}}

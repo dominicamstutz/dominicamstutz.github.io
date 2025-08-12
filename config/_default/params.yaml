@@ -66,5 +66,9 @@ features:
     branch: main
 
 # Load CSS
-
 plugins_css: ["custom"]
+
+# Site icon configuration
+icon:
+  pack: "custom"
+  name: "icon"

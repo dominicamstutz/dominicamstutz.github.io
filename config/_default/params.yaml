@@ -73,7 +73,7 @@ icon:
   pack: "custom"
   name: "icon"
 
-# Add these lines to params.yaml
+# Add icons for smartphones
 head: |
   <link rel="apple-touch-icon" href="/media/icon-180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/media/icon-192.png">

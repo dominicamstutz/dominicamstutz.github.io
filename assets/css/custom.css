@@ -1,0 +1,68 @@
+/* Remove extra space at bottom of mobile menu */
+@media (max-width: 991.98px) {
+    /* Remove bottom padding/margin from navbar collapse */
+    .navbar-collapse {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    /* Remove bottom spacing from navbar nav */
+    .navbar-nav {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Remove bottom margin from last nav item */
+    .navbar-nav .nav-item:last-child {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Remove bottom spacing from nav links */
+    .navbar-nav .nav-link {
+        margin-bottom: 0 !important;
+        padding-bottom: 0.5rem !important; /* Adjust as needed */
+    }
+    
+    /* Remove bottom spacing from dropdown menus in mobile */
+    .navbar-nav .dropdown-menu {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Tighten up the overall navbar */
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+    
+    /* If using Hugo Blox specific classes */
+    .navbar-toggler {
+        margin-bottom: 0 !important;
+    }
+    
+    /* Remove any default Bootstrap spacing */
+    .collapse.show {
+        padding-bottom: 0 !important;
+    }
+}
+
+/* Extra tight version - use if you want minimal spacing */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .navbar-nav {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 0 !important;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.25rem 1rem !important; /* Minimal vertical padding */
+    }
+}

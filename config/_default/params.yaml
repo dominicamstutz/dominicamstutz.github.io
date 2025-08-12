@@ -8,7 +8,7 @@ appearance:
   mode: light
   theme_day: minimal
   font: minimal
-  color: black
+  color: blue
   day_night: false
 
 # Remove hugo blox notice

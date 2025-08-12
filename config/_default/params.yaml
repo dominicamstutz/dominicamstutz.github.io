@@ -7,7 +7,6 @@
 appearance:
   mode: light
   theme_day: minimal
-  theme_night: minimal
   color: blue
   day_night: false
 

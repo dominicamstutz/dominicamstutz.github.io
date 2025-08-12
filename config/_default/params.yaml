@@ -14,10 +14,6 @@ appearance:
 # Remove hugo blox notice
 i_am_a_sponsor: true
 
-# Change website icon:
-params:
-  favicon: "favicon.png"
-
 # SEO
 marketing:
   seo:

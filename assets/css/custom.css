@@ -1,16 +1,39 @@
-/* Remove only bottom margin/padding from mobile menu */
+/* Remove bottom margin from mobile menu bar */
 
-/* Alternative smoother roll-out effect */
 @media (max-width: 991.98px) {
-    .navbar-collapse.alternative {
-        transform-origin: top;
-        transform: scaleY(0);
-        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        opacity: 0;
+    /* Remove bottom padding/margin from navbar collapse container */
+    .navbar-collapse {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
     }
     
-    .navbar-collapse.alternative.show {
-        transform: scaleY(1);
-        opacity: 1;
+    /* Remove bottom spacing from navbar nav container */
+    .navbar-nav {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Remove bottom margin only from the last nav item */
+    .navbar-nav .nav-item:last-child {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Keep normal spacing between items, just remove extra bottom padding */
+    .navbar-nav .nav-link {
+        /* Don't change top/bottom padding - keeps spacing between items */
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        /* Keep left/right padding unchanged for readability */
+    }
+    
+    /* Remove bottom spacing from the overall navbar container */
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+    
+    /* Hugo Blox specific - remove bottom spacing from collapse */
+    .collapse.show {
+        padding-bottom: 0 !important;
     }
 }

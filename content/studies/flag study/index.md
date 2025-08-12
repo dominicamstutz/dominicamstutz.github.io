@@ -10,7 +10,6 @@ image:
 
 authors:
   - Dominic Amstutz
-  - Jaemin Lee
 
 ---
 

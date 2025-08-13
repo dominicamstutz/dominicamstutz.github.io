@@ -112,3 +112,21 @@ section[id*="blog"] .card-title a {
   color: #000000 !important;
   text-transform: none !important;
 }
+
+/* Hide "Last updated" text */
+.article-date,
+.page-date,
+.last-modified,
+.lastmod,
+.updated-date,
+[class*="last-modified"],
+[class*="lastmod"],
+[class*="updated"] {
+  display: none !important;
+}
+
+/* Hide entire metadata section if it only contains date info */
+.article-metadata .article-date,
+.page-metadata .page-date {
+  display: none !important;
+}

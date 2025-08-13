@@ -9,7 +9,6 @@ show_date: false
 show_author: false
 reading_time: false
 show_related: false
-lastmod: false
 show_lastmod: false
 show_updated: false
 image:

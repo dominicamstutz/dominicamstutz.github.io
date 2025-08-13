@@ -28,55 +28,87 @@
   }
 }
 
-// Target blog post thumbnails/cards
-.card-title,
-.article-title,
-.post-title,
-.entry-title {
-  color: #000000 !important;  // Change from blue to black
-  text-transform: none !important;  // Remove capitalization
-}
+/* Fix blog post captions - remove blue color and capitalization */
 
-// More specific targeting for blog listing pages
-.blog-post .card-title,
-.blog-post .article-title,
-.posts-container .card-title {
+/* Target blog post cards and their titles */
+.card .card-body h5,
+.card .card-body .card-title,
+.card-header h5,
+.card-header .card-title,
+.blog-post-preview .card-title,
+.post-preview .card-title {
   color: #000000 !important;
   text-transform: none !important;
 }
 
-// Target links in titles too
-.card-title a,
-.article-title a,
-.post-title a {
+/* Target links within blog captions */
+.card .card-body h5 a,
+.card .card-body .card-title a,
+.card-header h5 a,
+.card-header .card-title a,
+.blog-post-preview .card-title a,
+.post-preview .card-title a {
   color: #000000 !important;
   text-transform: none !important;
+  text-decoration: none;
 }
 
-// Hover state to keep them black
-.card-title a:hover,
-.article-title a:hover {
-  color: #333333 !important;  // Slightly darker on hover
+/* Hover effects */
+.card .card-body h5 a:hover,
+.card .card-body .card-title a:hover,
+.card-header h5 a:hover,
+.card-header .card-title a:hover {
+  color: #333333 !important;
   text-decoration: underline;
 }
 
-// Catch-all for blog thumbnails
-[class*="card"] h1,
-[class*="card"] h2,
-[class*="card"] h3,
-[class*="post"] h1,
-[class*="post"] h2,
-[class*="post"] h3,
-[class*="article"] h1,
-[class*="article"] h2,
-[class*="article"] h3 {
+/* More specific targeting for Hugo Blox blog layouts */
+.view-card .card-title,
+.view-card h5,
+.card-simple .card-title,
+.card-simple h5 {
   color: #000000 !important;
   text-transform: none !important;
 }
 
-[class*="card"] a,
-[class*="post"] a,
-[class*="article"] a {
+.view-card .card-title a,
+.view-card h5 a,
+.card-simple .card-title a,
+.card-simple h5 a {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+/* Catch-all for any remaining blue capitalized text in blog previews */
+.blog-posts .card *,
+.posts-container .card *,
+[class*="blog"] .card h1,
+[class*="blog"] .card h2,
+[class*="blog"] .card h3,
+[class*="blog"] .card h4,
+[class*="blog"] .card h5 {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+[class*="blog"] .card a,
+.blog-posts .card a,
+.posts-container .card a {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+/* Additional targeting for specific Hugo Blox classes */
+.wg-blog .card-title,
+.wg-pages .card-title,
+section[id*="blog"] .card-title {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+.wg-blog .card-title a,
+.wg-pages .card-title a,
+section[id*="blog"] .card-title a {
   color: #000000 !important;
   text-transform: none !important;
 }

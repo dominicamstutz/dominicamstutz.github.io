@@ -8,6 +8,7 @@ appearance:
   mode: light
   theme_day: minimal
   font: minimal
+  size: M
   color: blue
   day_night: false
 

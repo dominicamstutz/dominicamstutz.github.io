@@ -1,0 +1,29 @@
+// Force light mode on all devices
+:root {
+  --color-scheme: light !important;
+}
+
+// Override dark mode detection
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-scheme: light !important;
+  }
+  
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
+// Mobile-specific light mode forcing
+@media (max-width: 768px) {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  [data-theme="dark"] {
+    background-color: white !important;
+    color: black !important;
+  }
+}

@@ -8,7 +8,7 @@ appearance:
   mode: light
   theme_day: minimal
   theme_night: minimal
-  font: classic
+  font: academic
   size: M
   color: blue
   day_night: false

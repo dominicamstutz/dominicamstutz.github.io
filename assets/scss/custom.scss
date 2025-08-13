@@ -27,3 +27,35 @@
     color: black !important;
   }
 }
+
+// Target blog post thumbnails/cards
+.card-title,
+.article-title,
+.post-title,
+.entry-title {
+  color: #000000 !important;  // Change from blue to black
+  text-transform: none !important;  // Remove capitalization
+}
+
+// More specific targeting for blog listing pages
+.blog-post .card-title,
+.blog-post .article-title,
+.posts-container .card-title {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+// Target links in titles too
+.card-title a,
+.article-title a,
+.post-title a {
+  color: #000000 !important;
+  text-transform: none !important;
+}
+
+// Hover state to keep them black
+.card-title a:hover,
+.article-title a:hover {
+  color: #333333 !important;  // Slightly darker on hover
+  text-decoration: underline;
+}

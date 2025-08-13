@@ -8,7 +8,6 @@ show_share: false
 show_date: false
 show_author: false
 reading_time: false
-lastmod: false
 show_related: false
 image:
   caption: 'Amstutz and Lee 2025'

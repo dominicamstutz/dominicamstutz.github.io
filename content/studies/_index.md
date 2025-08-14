@@ -8,7 +8,7 @@ weight: 20
 
 # Customize appearance
 design:
-  columns: "2"  # 1 or 2 columns
+  columns: "1"  # 1 or 2 columns
   view: "card"   # Options: "card", "compact", "list"
   flip_alt_rows: true
 ---

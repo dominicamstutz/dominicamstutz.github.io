@@ -1,3 +1,9 @@
+/* Remove uppercase and set black color for blog post titles in list view */
+.summary-title a {
+  text-transform: none !important;
+  color: #000 !important;
+}
+
 // Remove capitalization and set color to black
 .article-title, 
 .card-simple .article-title {

@@ -1,3 +1,10 @@
+// Remove capitalization and set color to black
+.article-title, 
+.card-simple .article-title {
+  text-transform: none !important;
+  color: #000 !important;
+}
+
 // Force light mode on all devices
 :root {
   --color-scheme: light !important;

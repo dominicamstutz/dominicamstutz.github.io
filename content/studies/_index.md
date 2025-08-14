@@ -2,9 +2,7 @@
 title: Studies
 subtitle: "My latest writings"
 widget: "posts"  # Hugo Blox's built-in blog widget
-headless: true
-active: true
-weight: 20
+
 
 # Customize appearance
 design:

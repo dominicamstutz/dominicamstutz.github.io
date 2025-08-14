@@ -12,4 +12,3 @@ design:
   view: "card"   # Options: "card", "compact", "list"
   flip_alt_rows: true
 ---
----
